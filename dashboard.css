@@ -1,0 +1,112 @@
+body {
+    background-color: #F4E6DC;
+}
+
+.navbar {
+    background: rgba(233, 82, 118, 0.71);
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    width: 120px;
+    padding: 0 1em;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 30px;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.material-icons:hover {
+    color: rgb(254, 224, 233);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-family: "Pacifico";
+    font-size: 1.3rem;
+    padding: 0 1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(254, 224, 233);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    
+}
+
+.carousel-item h5 {
+    font-family: "Pacifico";
+    color: rgba(233, 82, 118);
+    font-size: 1.5rem;
+}
+
+.carousel-item p {
+    font-family: "Josefin Sans";
+    color: rgb(94, 65, 57);
+    font-size: 1.3rem;
+}
+
+h3 {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    color: rgb(84, 65, 57);
+    font-family: "Josefin Sans";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(72, 172, 156);
+    font-family: "Pacifico";
+}
+
+.about-us h3 {
+    color: rgba(233, 82, 118);
+    font-family: "Pacifico";
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.about-us p {
+    color: white;
+    font-family: "Josefin Sans";
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.about .row{
+    padding-top: 2rem;
+    background-color: rgb(222, 200, 182);
+}
+
+footer {
+    background-color:  rgb(94, 65, 57);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+  }
+  
