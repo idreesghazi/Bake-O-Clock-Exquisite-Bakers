@@ -1,0 +1,555 @@
+
+body {
+    background-color: #F4E6DC;
+}
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+
+background: transparent;
+border-radius: 20px 20px 20px 20px;
+}
+body::-webkit-scrollbar-thumb {
+background-color:  rgba(233, 82, 118,0.8);
+border-radius: 5px;
+
+}
+
+.navbar {
+    background: rgba(233, 82, 118, 0.71);
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    width: 120px;
+    padding: 0 1em;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 30px;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    transition: all 1s ease;
+}
+
+.material-icons:hover {
+    color: rgb(254, 224, 233);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-family: "Pacifico";
+    font-size: 1.5rem;
+    padding: 0 1em;
+    transition: all 1s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(254, 224, 233);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.2rem;
+        margin: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width: 575.5px) {
+    .img-fluid {
+        width: 50%;
+    }
+
+    svg text {
+        font-size: 100px;
+    }
+
+    .contact h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .contact h1 {
+        font-size: 1.2rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        font-size: 14px;
+    }
+}
+
+
+
+.carousel-item h5 {
+    font-family: "Pacifico";
+    color: rgba(233, 82, 118);
+    font-size: 1.8rem;
+}
+
+.carousel-item p {
+    font-family: "Josefin Sans";
+    color: rgb(94, 65, 57);
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    color: rgb(84, 65, 57);
+    font-family: "Josefin Sans";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about h1 {
+    font-size: 60px;
+    color: rgb(72, 172, 156);
+    font-family: "Pacifico";
+    animation: neon 3s ease infinite reverse;
+}
+
+.about-us h2 {
+    color: rgba(233, 82, 118);
+    font-family: "Pacifico";
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+.contact h1 {
+    color: rgba(233, 82, 118);
+    font-family: "Pacifico";
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    text-decoration: overline rgb(255, 255, 255);
+}
+
+
+
+.about-us p {
+    color: white;
+    font-family: "Josefin Sans";
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+
+
+.about .row {
+    padding-top: 2rem;
+    background-color: rgb(222, 200, 182);
+}
+
+
+.contact-form {
+    background-color: rgb(72, 172, 156);
+    font-family: "Josefin Sans";
+}
+
+.contact-form button {
+    background: rgba(241, 115, 145, 0.92);
+    box-shadow: 4px 4px 45px 29px rgba(255, 255, 255, 0.25);
+    border-radius: 21px;
+    border: none;
+    font-family: "Pacifico";
+    color: white;
+    letter-spacing: 1px;
+    transition: all 1s ease;
+}
+
+.contact-form button:hover,.modal-footer .cancel:hover {
+    background: white;
+    border: 2px solid rgba(241, 115, 145, 0.92);
+    color: rgba(241, 115, 145, 0.92);
+    transform: scale(0.9);
+}
+
+footer {
+    background-color: rgb(94, 65, 57);
+}
+
+footer .navbar-brand img {
+    width: 160px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    transition: all 1s ease;
+}
+
+.fa:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+
+body {
+    margin: 0;
+}
+
+.patterns {
+    height: 100vh;
+}
+
+
+
+svg text {
+    font-family: "Pacifico";
+    letter-spacing: 5px;
+    stroke: rgba(233, 82, 118);
+    font-size: 70px;
+    font-weight: 400;
+    stroke-width: 3;
+
+    animation: textAnimate 5s 2 alternate;
+
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+        fill: rgb(72, 172, 156);
+
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: rgba(255, 255, 255, 0)
+    }
+
+
+}
+
+@media screen and (min-width: 800px) {
+    svg text {
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    svg text {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    svg text {
+        font-size: 40px;
+        stroke-width: 2;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: #F4E6DC;
+}
+
+.patterns {
+    height: 100vh;
+}
+
+
+
+svg text {
+    font-family: "Pacifico";
+    letter-spacing: 10px;
+    stroke: rgba(233, 82, 118);
+    font-size: 70px;
+    font-weight: 400;
+    stroke-width: 3;
+
+    animation: textAnimate 6s infinite alternate;
+
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+        fill: rgb(72, 172, 156);
+
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: rgba(255, 255, 255, 0)
+    }
+
+
+}
+
+@media screen and (min-width: 800px) {
+    svg text {
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    svg text {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    svg text,
+    .about h1 {
+        font-size: 40px;
+        stroke-width: 2;
+    }
+}
+
+
+@keyframes neon {
+
+    0%,
+    100% {
+        text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 2px #eda0c0, 2px 2px 2px #eda0c0;
+        color: rgb(72, 172, 156);
+        ;
+    }
+
+    50% {
+        text-shadow: 0 0 10px #ff80b3cb, 0 0 20px #ff80b3cb, 0 0 20px #ff80b3cb, 0 0 20px #ff80b3cb, 0 0 2px #63e1e89c, 4px 4px 4px #63e1e89c;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.menu-card a{
+    margin: 0 10px;
+}
+
+h2, .checkout h1{
+    margin-top: 10px;
+    font-family: "Pacifico";
+    color: rgb(72, 172, 156);
+    text-decoration: overline white;
+}
+
+.category-card{
+	width: 13%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end ;
+	transition: all 1s ease;
+	opacity: 1;
+    text-decoration: none;
+}
+
+
+.category-card p{
+    font-family: "Pacifico";
+    color: rgba(233, 82, 118);
+    text-decoration: none;
+    font-size: 22px;
+	margin: 2px;
+}
+
+@media screen and (max-width: 910px) {
+
+    .category-card img {
+        width:60px;
+    }
+
+    .category-card p {
+        font-size: 15px;
+    }
+
+    .categories h2{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .category-card img {
+        width:40px;
+    }
+
+    .category-card p {
+        font-size: 12px;
+    }
+
+    .categories h2{
+        font-size: 18px;
+    }
+}
+
+.category-card:hover{
+	text-decoration: none;
+	opacity: 0.5;
+    transform: scale(0.9);
+}
+ 
+.card{
+	max-height: 575.13px;
+    margin-bottom: 10px;
+    transition: all 1s ease;
+}
+.card:hover{
+	max-height: 575.13px;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+.card h5{
+    font-family: "Josefin Sans";
+    font-size: large;
+    text-align: center;
+}
+
+.card .email-button{
+    font-family: "Josefin sans";
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(72, 172, 156, 0.92);
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    letter-spacing: 2px;
+    transition: all 1s ease;
+}
+
+
+.card .email-button:hover,.offcanvas-body button:hover,.checkout button:hover,.modal-footer .confirm:hover{
+    background: white;
+    border: 2px solid rgba(72, 172, 156, 0.92);
+    color: rgba(72, 172, 156, 0.92);
+    transform: scale(0.9);
+}
+
+.card-img-top{
+	max-height: 453.125px;
+    overflow: hidden;
+}
+
+.card-body{
+	justify-content: flex-end;
+}
+
+
+.offcanvas h5{
+    color: rgb(94, 65, 57);
+    font-family: "Pacifico";
+}
+
+.offcanvas h3{
+    color: rgba(233, 82, 118);
+    font-family: "Pacifico";
+    font-weight: lighter;
+}
+.table th{
+    color: rgba(233, 82, 118);
+    font-family: "Pacifico";
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.table tr, .table td{
+    font-family: "Josefin Sans";
+    font-size: small;
+}
+
+.offcanvas button, .checkout button{
+    color: rgb(255, 255, 255);
+    font-family: "Josefin Sans";
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(72, 172, 156, 0.92);
+    justify-content: flex-end;
+    transition: all 1s ease;
+}
+
+
+.table tr td span{
+    color: black;
+    transition: all 1s ease;
+}
+
+form label{
+    color: rgb(94, 65, 57);
+}
+
+form input[type=text], form input[type=email], form textarea[id=message]{
+    border: 2px solid rgba(233, 82, 118,0.8);
+}
+
+.table tr td span:hover{
+    color: red;
+    transform: scale(0.9);
+}
+
+.checkout {
+    background-color: rgba(233, 82, 118,0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.checkout table tr{
+    border-color: rgb(255, 255, 255);
+}
+
+.checkout form div{
+    font-family: "Josefin sans";
+    margin-bottom: 1rem;
+}
+
+.modal-footer .confirm, .modal-footer .cancel{
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.modal-footer .confirm{
+    background-color: rgba(72, 172, 156, 0.92);
+}
+
+.modal-footer .cancel{
+    background-color: rgba(233, 82, 118, 0.92);
+}
+
+.modal{
+    font-family: "Josefin Sans";
+}
+
+
